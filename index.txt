@@ -1,10 +1,10 @@
-vCard - Personal Portfolio
+Edmond Ho
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Edmond Ho
+Edmond Ho
+Full Stack Developer
 
 Show Contacts
 
