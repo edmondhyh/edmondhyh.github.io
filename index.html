@@ -500,9 +500,11 @@
               <span>Sep 2022 — Present</span>
 
               <p class="timeline-text">
-                - Self-development: Budget Management App<br>
+                - Self-developed: Budget Management App<br>
                 - HikeSafe(FYP): Mobile Application for Better Hiking Experience <b>(A)</b><br>
-                - Self-taught(COMP4521): Location-based app for pet <b>(A-)</b><br>
+                - Coursework: Location-based app for pet <b>(A-)</b><br>
+              </p>
+
             </li>
 
           </ol>
@@ -1115,7 +1117,7 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="https://cdn.emailjs.com/dist/email.min.js" class="form" data-form>
+          <form action="#" class="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1140,23 +1142,7 @@
 
   </main>
 
-  <script>
-    emailjs.init("IdEwmNAZ0guHfEJV");
-  
-    document.querySelector('[data-form]').addEventListener('submit', function(event) {
-      event.preventDefault();
-  
-      emailjs.sendForm("service_i0cd79z", "template_fq4dqei", this)
-        .then(function(response) {
-          console.log("Email sent successfully", response);
-          // You can add a success message or redirection here
-        })
-        .catch(function(error) {
-          console.error("Email failed to send", error);
-          // You can show an error message to the user here
-        });
-    });
-  </script>
+
 
 
 
